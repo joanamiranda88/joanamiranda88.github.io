@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+$mytype: 'Gugi', cursive;
+$brandcolor: #ff0c00;
+
+body {
+	font-family: $mytype;
+}
+
+h2 {
+	color: $brandcolor;
+}
+
+a {
+	color: $brandcolor;
+}
+
+.post-meta {
+	list-style: none; 
+	a {
+		color: green;
+	}
+}
+
+
+ul {
+	&.post-list {
+		list-style: none;
+	}
+
+	a {
+		color: blue;
+	
+	body.postid & {
+		color: red;
+	}
+  }
+}
+
+#login-local-popup {
+	.terms-confirm {
+		margin-bottom: 23px;
+
+		div {
+			line-height: 20px;
+			& > 
+		}
+	}
+}
+
+body.postid {
+	ul {
+		a {
+			color: red;
+		}
+	}
+}
