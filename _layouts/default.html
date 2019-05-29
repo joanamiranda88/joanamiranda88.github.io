@@ -1,193 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>Joana Miranda Portfolio</title>
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:800;Roboto:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width">
-</head>
+  {%- include head.html -%}
 
-<body>
-  <header>
-    <a href="#top" class="logo">
-      <span>Joana Miranda Portfolio</span>
-      <img src="images/Joana-Miranda-Portfolio-Logo@2x.png" srcset="images/Joana-Miranda-Portfolio-Logo@2x.png 2x" alt="logo Joana Miranda">
-    </a>
-    <nav class="menu">
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contacts">Contacts</a></li>
-      </ul>
-    </nav>
-  </header>
+  <body>
 
-  <main class="container">
-    <section id="whys">
-      <img src="images/Joana-Miranda-Portfolio-Why-Background@2x.png" srcset="images/Joana-Miranda-Portfolio-Why-Background@2x.png 2x" class="why-background"> 
-      <div class="text-block">
-        <h1>5 whys I wanna be a UX designer</h1>
-        <h3><em>Why?</em> I always fall in love with the problem.</h3>
-        <h3><em>Why?</em> I like to think.</h3>
-        <h3><em>Why?</em> Because I like to create real things to real users.</h3>
-        <h3><em>Why?</em> To make people's lives better.</h3>
-        <h3><em>Why?</em> Because I believe that’s why design exists.</h3>
-      </div>
-    </section>
-    
-    <section id="about">
-      <h1>Introduction card - Others about me</h1>
-      <figure class="card">
-        <img src="images/Joana-Miranda-Portfolio-Introdution-Card-Sofia@2x.png" srcset="images/Joana-Miranda-Portfolio-Introdution-Card-Sofia@2x.png 2x" alt="Introcution card written by Sofia image">
-        <figcaption>"Hardworking, rigorous and loyal." <strong>Sofia Paiva Raposo (art director)</strong></figcaption>
-      </figure>
-      <figure class="card">
-        <img src="images/Joana-Miranda-Portfolio-Introdution-Card-Teresa@2x.png" srcset="images/Joana-Miranda-Portfolio-Introdution-Card-Teresa@2x.png 2x" alt="Introcution card written by Teresa image">
-        <figcaption>"Meticulous, hardworking, rigorous, companion, creative, persistent, discreet… It's very easy to praise!" <strong>Teresa Roque de Pinho (colleague)</strong></figcaption>
-      </figure>
-      <figure class="card">
-        <img src="images/Joana-Miranda-Portfolio-Introdution-Card-Ines@2x.png" srcset="images/Joana-Miranda-Portfolio-Introdution-Card-Ines@2x.png 2x" alt="Introcution card written by Ines image">
-        <figcaption>"Joana is extremely organized, responsible and meticulous. She promotes good atmosphere at work and has a lot of creativity." <strong>Inês Fonseca (colleague)</strong></figcaption>
-      </figure>
-      <figure class="card">
-        <img src="images/Joana-Miranda-Portfolio-Introdution-Card-Claudia@2x.png" srcset="images/Joana-Miranda-Portfolio-Introdution-Card-Claudia@2x.png 2x" alt="Introcution card written by Claudia image">
-        <figcaption>"Very competent and prefectionist." <strong>Cláudia Rocha (colleague)</strong></figcaption>
-      </figure>
-    </section>
+    {%- include header.html -%}
 
-    <section id="emphaty">
-      <h1 class="scroll-fixer">Emphaty Map - Me about me</h1>
-      <div class="post-its line-bottom line-right">
-        <h2>Says</h2>
-        <ul>
-            <li>I want a new challenge</li>
-            <li>I like to make a difference</li>        
-            <li>I am extremely dedicated</li>
-            <li>It only makes sense to create user-centered things</li>
-          </ul>
-        </div>
-      <div class="post-its line-bottom line-left">
-        <h2>Thinks</h2>
-        <ul>
-            <li>It is essencial to be a good listener</li>
-            <li>I want to create user-centered things</li>  
-            <li>I want to improve knowledge about best ways to know the user needs</li>
-            <li>I want to create things that make a difference in people's lives</li>
-          </ul>
-        </div>
-      <div class="post-its line-right line-top">
-        <h2>Does</h2>
-        <ul>
-            <li>Read a lot of books</li>
-            <li>Deeply analyse important things</li>      
-            <li>Listen, listen, listen</li>     
-          </ul>
-        </div>
-      <div class="post-its line-left line-top">
-        <h2>Feels</h2>
-        <ul>
-            <li>Excited with new challenges</li>
-            <li>Motivated</li>        
-            <li>Passionate</li>
-          </ul>
-        </div>
-    </section>
+   <main class="container">
+     <div class="wrapper">
+       {{ content }}
+     </div>
+   </main>
 
-    <section id="projects">
-      <h1 class="scroll-fixer">Projects</h1>
-      <ul>
-        <li class="one-project">
-          <img src="images/Joana-Miranda-Portfolio-Project-Fernando-Pessoa@2x.png" srcset="images/Joana-Miranda-Portfolio-Project-Fernando-Pessoa@2x.png 2x" alt="First portfolio project image with and illustration">
-          <h3>Redesign Website Casa-Museu Fernando Pessoa</h3>
-          <p>The project consisted in a redesign of a homepage and a page about the poet, after training some user-centred methodologies like surveys.</p>
-          <a href="https://www.behance.net/gallery/64733619/Redesign-Site-Casa-Fernando-Pessoa" target="_blank" class="button">View complete project</a>
-        </li>
-        <li class="one-project">
-          <img src="images/Joana-Miranda-Portfolio-Project-Food-App@2x.png" srcset="images/Joana-Miranda-Portfolio-Project-Food-App@2x.png 2x" alt="Second portfolio project image with the logo of the project">
-          <h3>APP Chef Me</h3>
-          <p>The challenge of this project was create a mobile application for people who don't like to cook.</p>
-          <a href="https://www.behance.net/gallery/67762717/Chef-me-(Food-App)" target="_blank" class="button">View complete project</a>
-        </li>
-        <li class="one-project">
-          <img src="images/Joana-Miranda-Portfolio-Project-Lisboa@2x.png" srcset="images/Joana-Miranda-Portfolio-Project-Lisboa@2x.png 2x" alt="Third portfolio project image with the logo of the project that represents Lisbon">
-          <h3>APP Lisboa Gente</h3>
-          <p>The challenge of this project was create a mobile application for tourists and locals to enjoy Lisbon in a better way.</p>
-          <a href="https://www.behance.net/gallery/67846679/Lisboa-Gente-App" target="_blank" class="button">View complete project</a>
-        </li>
-        <li class="one-project">
-          <img src="images/Joana-Miranda-Portfolio-Project-Sharing@2x.png" srcset="images/Joana-Miranda-Portfolio-Project-Sharing@2x.png 2x" alt="Fourth portfolio project image with the logo of the project">
-          <h3>WebApp Sharing Goods is Caring</h3>
-          <p>This project is a webapp of a service to help to reduce the mass production of objects that we only need a few times and promote a sharing economy.</p>
-          <a href="https://medium.com/@joana.miranda25/web-app-sharing-goods-is-caring-case-study-f6e50c8c9d03" target="_blank" class="button">View complete project</a>
-        </li>
-      </ul>
-    </section>
+    {%- include footer.html -%}
+  
 
-    <section id="education">
-      <h1 class="scroll-fixer">Education</h1>
-      <ol>
-          <li><strong>2006-2009</strong> -  Bachelor in Communication Design at FBAUL (Lisbon's Faculty of Fine-Arts)</li>
-          <li><strong>2009-2011</strong> -  Master in Communication Design at FAL (Lisbon's Faculty of Architecture)</li>       
-          <li><strong>2018</strong> - Intensive Course in User Experience & User Interface Design at EDIT Lisbon</li>
-          <li><strong>2018-2019</strong> -  Post Graduation in Digital Experience Design</li>     
-        </ol>
-    </section>
+  </body>
 
-    <section id="contacts">
-      <h1 class="scroll-fixer">Contacts</h1>
-      <ul>
-        <li><i class="fas fa-envelope"></i><a href="mailto:joana.miranda25@gmail.com">joana.miranda25@gmail.com</a></li>
-        <li><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/joana-miranda-aa89863b/" target="_blank">Linkedin</a></li>
-        <li><i class="fab fa-medium-m"></i><a href="https://medium.com/@joana.miranda25" target="_blank">Medium</a></li>
-        <li><i class="fab fa-behance"></i><a href="https://www.behance.net/joanamiran4db5" target="_blank">Behance</a>
-        </li>
-        </ul>
-    </section>
-  </main>
-
-  <footer>
-    <nav class="nav-footer">
-      <ul>
-        <li><a href="#whys">5 Whys I wanna be a UX Designer</a></li>
-        <li><a href="#about">Introduction card - others about me</a></li>
-        <li><a href="#emphaty">Emphaty map - me about me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-      </ul>
-    </nav>
-    <section class="contacts-footer">
-      <ul>
-        <li>
-          <a href="mailto:joana.miranda25@gmail.com">
-            <img src="images/Joana-Miranda-Portfolio-Email.svg" alt="Email icon">
-            <span>Email</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/joana-miranda-aa89863b/" target="_blank">
-            <img src="images/Joana-Miranda-Portfolio-Linkedin.svg" alt="Linkedin logo">
-            <span title="Website name">Linkedin</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://medium.com/@joana.miranda25" target="_blank">
-            <img src="images/Joana-Miranda-Portfolio-Medium.svg" alt="Medium logo">
-            <span title="Webite name">Medium</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.behance.net/joanamiran4db5" target="_blank">
-            <img src="images/Joana-Miranda-Portfolio-Behance.svg" alt="Behance logo">
-            <span title="Website name">Behance</span>
-          </a>
-        </li>
-      </ul>
-      </section>
-  </footer>
-
-</body>
-</html>
+  </html>
