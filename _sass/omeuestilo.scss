@@ -1,55 +1,496 @@
-@import url('https://fonts.googleapis.com/css?family=Gugi');
-$mytype: 'Gugi', cursive;
-$brandcolor: #ff0c00;
+*{
+  	margin: 0;
+  	box-sizing: border-box;
+}
 
 body {
-	font-family: $mytype;
+	color: #2F2929;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+  	line-height: 1.6;
+	text-align: left;
+	background-color: #FFFBF3;
+	padding-top: 70px;
+}
+
+body a {
+	color: #2F2929;
+	cursor: cell;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body a:hover { 
+  	border-bottom: 4px solid;
+}
+
+::selection { 
+	background: #FFF469;
+}
+
+h1 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 40px;
+	line-height: 2;
+	margin: 50px 0 10px;
 }
 
 h2 {
-	color: $brandcolor;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
-a {
-	color: $brandcolor;
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	line-height: 2;
 }
 
-.post-meta {
-	list-style: none; 
-	a {
-		color: green;
+img {
+	width: 100%;
+}
+
+.scroll-fixer {
+	padding-top: 110px;
+	margin-top: -70px;
+}
+
+
+/*-----------header-----------*/
+
+header {	
+  	background-color: #2F2929;
+    width: 100%;
+  	height: 70px; 
+    top: 0;
+  	position: fixed;
+ 	padding: 18px;
+	z-index: 999;
+}
+
+.logo {
+	width: 267px;
+	height: 32px;
+	display: inline-block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background:url(../images/Joana-Miranda-Portfolio-Logo.png);
+	background-repeat: no-repeat;
+}
+
+.menu {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	float: right;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	color: #F3DBD6;
+ 	font-size: 20px; 
+ 	text-decoration: none;
+ 	text-align: center;
+ 	padding: 12px;
+}
+
+/*-----------header end-----------*/
+
+
+
+/*-----------container-----------*/
+
+.container {
+	max-width: 1280px;
+	position: relative;
+	display: block;
+	margin: 100px auto auto;
+}
+
+/*-----------container end-----------*/
+
+
+
+/*-----------whys section-----------*/
+
+#whys .text-block {
+	position: absolute;
+	top: 30px;
+	left: 320px;
+}
+
+#whys .text-block h1 {
+	font-size: 50px;
+}
+
+/*-----------whys section end-----------*/
+
+
+
+/*-----------card & projects section-----------*/
+
+#projects ul {
+	padding-left: 0;
+}
+
+.card, .one-project {
+	width: 49%;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 10px 40px 0;
+}
+
+.card figcaption {
+	line-height: 1.4;
+	margin-top: 10px;
+}
+
+.one-project .button {
+	color: black;
+	box-shadow: 8px 10px #2F2929;
+	border: 3px solid #2F2929;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 32px;
+	margin: 20px 0 16px 0;
+}
+
+.one-project .button:hover {
+	color: white;
+	background-color: #2F2929; 
+}
+
+.one-project .button::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.one-project p {
+	line-height: 1.4;
+}
+
+
+/*-----------card & projects section end-----------*/
+
+
+
+/*-----------emphaty section-----------*/
+
+#emphaty {
+	font-size: 0;
+}
+
+.post-its { 
+ 	width: 50%;
+ 	line-height: 1.4;
+ 	vertical-align: top;
+ 	display: inline-block;
+}
+
+.line-bottom {
+	border-bottom: 3px solid black;
+}
+
+.line-right {
+	border-right: 3px solid black;
+}
+
+.line-left {
+	border-left: 3px solid black;
+	padding-left: 32px;
+}
+
+.line-top {
+	border-top: 3px solid black;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#emphaty h1, #education h1  {
+	margin: -110px 0 0;
+}
+
+#emphaty ul {
+	padding: 0;
+}
+
+#emphaty ul li { 
+  	color: #000;
+   	background: #F0E9DB;
+    box-shadow: 3px 3px 3px #D8D4CC;
+    font-size: 18px;
+ 	width: 200px;
+  	height: 200px;
+    display:block;
+ 	padding: 14px;
+ 	margin: -130px 10px 20px 360px;
+}
+
+#emphaty li:first-child {
+ 	background: #F3DBD6;
+ 	position: absolute;
+  	margin: 10px 0 0;
+	z-index: -1; 	
+}
+
+#emphaty li:nth-child(3n+2) {
+ 	background: #F3DBD6;
+ 	margin: 38px 0 0 310px;
+}
+
+#emphaty li:nth-child(3n+3) {
+ 	background: #FFF469;
+ 	margin: -110px 0 10px 60px;
+}
+
+/*-----------emphaty section end-----------*/
+
+
+
+/*-----------education section-----------*/
+
+#education ol {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+/*-----------education section end-----------*/
+
+
+
+/*-----------contacts section-----------*/
+
+#contacts i {
+	padding-right: 10px;
+}
+
+#contacts ul { 
+	list-style-type: none;
+	padding: 0;
+}
+
+/*-----------contacts section end-----------*/
+
+
+
+/*-----------footer-----------*/
+
+footer a { 
+	color: #F3DBD6;
+  	text-decoration: none;
+}
+
+footer {
+	background-color: #2F2929;
+	padding: 30px;
+	margin-top: 50px;
+}
+
+.nav-footer { 
+  	font-family: 'Barlow Semi Condensed', sans-serif;
+	width: 70%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+  	text-decoration: none;
+  	line-height: 1.8;
+  	display: inline-block;
+}
+
+.nav-footer li { 
+	list-style-type: none;
+}
+
+.contacts-footer {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-align: right; 
+	width: 30%;
+ 	display: inline-block;
+	float: right;
+}
+
+.contacts-footer ul li {
+	text-align: center;
+	display: inline-block;
+	margin-right: 16px;
+	padding-left: 0;
+}
+
+.contacts-footer img {
+	width: 36px;
+	height: 36px;
+	display: block;
+	margin: 0 auto 6px auto;
+}
+
+/*-----------footer end-----------*/
+
+
+
+/* Responsive - two columns become one */
+
+/*-----------media 1280px-----------*/
+
+@media (max-width: 1280px) {
+
+	.card, .one-project, .post-its {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.post-its{
+		border: 0;
+		padding: 0;
+	}
+
+	#emphaty ul {
+		margin: 0;
 	}
 }
 
+/*-----------media 1280px end-----------*/
 
-ul {
-	&.post-list {
-		list-style: none;
+
+
+/*-----------media 1024px-----------*/
+
+@media (max-width: 1024px) {
+
+	header {	
+  		text-align: center;
+  		height: 150px;
 	}
 
-	a {
-		color: blue;
-	
-	body.postid & {
-		color: red;
+	header ul {
+		padding-left: 0;
 	}
-  }
+
+	h1, h2, h3, figcaption, ul, #education ol, #contacts ul { 
+		padding-left: 20px;
+	}	
+
+	.logo {
+		margin: 10px 0 18px;
+	}
+
+	.menu {
+		float: none;
+	}
+
+	.why-background {
+		display: none;
+	}
+
+	#whys .text-block {
+		background-color: #F3DBD6;
+		position: relative;
+		display: block;
+		top: -20px;
+		left: 0;
+		padding: 20px 0 60px;
+	}
+
+	.text-block h1 {
+		line-height: 1.2;
+	}
+
+	#emphaty h1, #education h1  {
+		margin: -100px 0 0 0;
+	}
+
+	.card, .one-project, .post-its  {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.one-project .button {
+		margin: 14px 0 20px 20px;
+		padding-left: 20px;
+	}
+
+	.one-project p {
+		line-height: 1.4;
+		margin-left: 20px;		
+	}
+
+	footer {
+		padding: 0;
+	}
+
+	.nav-footer { 
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.contacts-footer { 
+		width: 100%;
+		text-align: left;
+		float: none;
+		margin: 30px 0 40px;
+	}
+
 }
 
-#login-local-popup {
-	.terms-confirm {
-		margin-bottom: 23px;
 
-		div {
-			line-height: 20px; 
-		}
+/*-----------media 1024px end-----------*/
+
+
+
+/*-----------media 480px-----------*/
+
+@media (max-width: 480px) {
+
+	body {
+		font-size: 16px;
+		padding-top: 120px;
 	}
+
+	h1 {
+		font-size: 36px;
+		line-height: 1.2;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 1.8;
+	}
+
+	#emphaty ul li { 
+	 	margin-left: 272px;
+	}
+
+	#emphaty li:nth-child(3n+2) {
+	 	margin-left: 240px;
+	}
+
+	#projects .button {
+		font-size: 12px;
+		width: 300px;
+		height: 52px;
+	}
+
 }
 
-body.postid {
-	ul {
-		a {
-			color: red;
-		}
-	}
-}
+
+/*-----------media 480px end-----------*/
+
