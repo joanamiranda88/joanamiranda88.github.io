@@ -1,3 +1,6 @@
+@import "header";
+@import "footer";
+
 *{
   	margin: 0;
   	box-sizing: border-box;
@@ -56,53 +59,6 @@ img {
 	padding-top: 110px;
 	margin-top: -70px;
 }
-
-
-/*-----------header-----------*/
-
-header {	
-  	background-color: #2F2929;
-    width: 100%;
-  	height: 70px; 
-    top: 0;
-  	position: fixed;
- 	padding: 18px;
-	z-index: 999;
-}
-
-.logo {
-	width: 267px;
-	height: 32px;
-	display: inline-block;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	background:url(../images/Joana-Miranda-Portfolio-Logo.png);
-	background-repeat: no-repeat;
-}
-
-.menu {
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	float: right;
-}
-
-.menu ul li {
-	display: inline-block;
-}
-
-.menu ul li a {
-	color: #F3DBD6;
- 	font-size: 20px; 
- 	text-decoration: none;
- 	text-align: center;
- 	padding: 12px;
-}
-
-/*-----------header end-----------*/
-
-
 
 /*-----------container-----------*/
 
@@ -287,59 +243,6 @@ header {
 
 /*-----------contacts section end-----------*/
 
-
-
-/*-----------footer-----------*/
-
-footer a { 
-	color: #F3DBD6;
-  	text-decoration: none;
-}
-
-footer {
-	background-color: #2F2929;
-	padding: 30px;
-	margin-top: 50px;
-}
-
-.nav-footer { 
-  	font-family: 'Barlow Semi Condensed', sans-serif;
-	width: 70%;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-  	text-decoration: none;
-  	line-height: 1.8;
-  	display: inline-block;
-}
-
-.nav-footer li { 
-	list-style-type: none;
-}
-
-.contacts-footer {
-	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
-	text-align: right; 
-	width: 30%;
- 	display: inline-block;
-	float: right;
-}
-
-.contacts-footer ul li {
-	text-align: center;
-	display: inline-block;
-	margin-right: 16px;
-	padding-left: 0;
-}
-
-.contacts-footer img {
-	width: 36px;
-	height: 36px;
-	display: block;
-	margin: 0 auto 6px auto;
-}
-
-/*-----------footer end-----------*/
 
 
 

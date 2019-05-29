@@ -1,0 +1,39 @@
+header {	
+  	background-color: #2F2929;
+    width: 100%;
+  	height: 70px; 
+    top: 0;
+  	position: fixed;
+ 	padding: 18px;
+	z-index: 999;
+}
+
+.logo {
+	width: 267px;
+	height: 32px;
+	display: inline-block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background:url(../images/Joana-Miranda-Portfolio-Logo.png);
+	background-repeat: no-repeat;
+}
+
+.menu {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	float: right;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	color: #F3DBD6;
+ 	font-size: 20px; 
+ 	text-decoration: none;
+ 	text-align: center;
+ 	padding: 12px;
+}
