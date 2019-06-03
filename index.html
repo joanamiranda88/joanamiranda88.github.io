@@ -74,6 +74,7 @@ layout: default
 
       <section id="projects">
         <h1 class="scroll-fixer">Projects</h1>
+       
         <ul>
           
         {% for post in site.posts %}
@@ -81,31 +82,14 @@ layout: default
             <img src="{{ post.image }}" alt="#">
             <h3>{{ post.title }}</h3>
             <p>{{ post.content }}</p>
-            <a href="#">
+            <a href="{{ post.link }}" target="_blank" class="button">View complete project</a>
           </li>
         {% endfor %}
 
-
-          <li class="one-project">
-            <img src="assets/images/Joana-Miranda-Portfolio-Project-Food-App@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Project-Food-App@2x.png 2x" alt="Second portfolio project image with the logo of the project">
-            <h3>APP Chef Me</h3>
-            <p>The challenge of this project was create a mobile application for people who don't like to cook.</p>
-            <a href="https://www.behance.net/gallery/67762717/Chef-me-(Food-App)" target="_blank" class="button">View complete project</a>
-          </li>
-          <li class="one-project">
-            <img src="assets/images/Joana-Miranda-Portfolio-Project-Lisboa@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Project-Lisboa@2x.png 2x" alt="Third portfolio project image with the logo of the project that represents Lisbon">
-            <h3>APP Lisboa Gente</h3>
-            <p>The challenge of this project was create a mobile application for tourists and locals to enjoy Lisbon in a better way.</p>
-            <a href="https://www.behance.net/gallery/67846679/Lisboa-Gente-App" target="_blank" class="button">View complete project</a>
-          </li>
-          <li class="one-project">
-            <img src="assets/images/Joana-Miranda-Portfolio-Project-Sharing@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Project-Sharing@2x.png 2x" alt="Fourth portfolio project image with the logo of the project">
-            <h3>WebApp Sharing Goods is Caring</h3>
-            <p>This project is a webapp of a service to help to reduce the mass production of objects that we only need a few times and promote a sharing economy.</p>
-            <a href="https://medium.com/@joana.miranda25/web-app-sharing-goods-is-caring-case-study-f6e50c8c9d03" target="_blank" class="button">View complete project</a>
-          </li>
         </ul>
+
       </section>
+
 
       <section id="education">
         <h1 class="scroll-fixer">Education</h1>
