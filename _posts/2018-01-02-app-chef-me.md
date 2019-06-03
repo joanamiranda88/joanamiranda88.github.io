@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "APP Chef Me"
 featured: true
 image: assets/images/Joana-Miranda-Portfolio-Project-Food-App@2x.png

@@ -1,0 +1,25 @@
+.button {
+	color: black;
+	box-shadow: 8px 10px #2F2929;
+	border: 3px solid #2F2929;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 32px;
+	margin: 20px 0 16px 0;
+}
+
+.button:hover {
+	color: white;
+	background-color: #2F2929; 
+}
+
+.button::after {
+	content: "";
+	display: block;
+	clear: both;
+}

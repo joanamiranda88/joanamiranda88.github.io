@@ -1,0 +1,47 @@
+footer li > a { 
+	color: #F3DBD6;
+  	text-decoration: none;
+}
+
+footer {
+	background-color: #2F2929;
+	padding: 30px;
+	margin-top: 50px;
+}
+
+.nav-footer { 
+  	font-family: 'Barlow Semi Condensed', sans-serif;
+	width: 70%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+  	text-decoration: none;
+  	line-height: 1.8;
+  	display: inline-block;
+}
+
+.nav-footer li { 
+	list-style-type: none;
+}
+
+.contacts-footer {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-align: right; 
+	width: 30%;
+ 	display: inline-block;
+	float: right;
+}
+
+.contacts-footer ul li {
+	text-align: center;
+	display: inline-block;
+	margin-right: 16px;
+	padding-left: 0;
+}
+
+.contacts-footer img {
+	width: 36px;
+	height: 36px;
+	display: block;
+	margin: 0 auto 6px auto;
+}

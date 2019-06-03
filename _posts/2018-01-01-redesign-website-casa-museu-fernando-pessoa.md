@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Redesign Website Casa-Museu Fernando Pessoa"
 featured: true
 image: assets/images/Joana-Miranda-Portfolio-Project-Fernando-Pessoa@2x.png

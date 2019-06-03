@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "APP Lisboa Gente"
 featured: true
 image: assets/images/Joana-Miranda-Portfolio-Project-Lisboa@2x.png
