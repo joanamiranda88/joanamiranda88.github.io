@@ -3,6 +3,7 @@ layout: default
 title: "APP Lisboa Gente"
 featured: true
 image: assets/images/Joana-Miranda-Portfolio-Project-Lisboa@2x.png
+alt: "Third portfolio project image with the logo of the project that represents Lisbon"
 link: https://www.behance.net/gallery/67846679/Lisboa-Gente-App
 ---
 
