@@ -1,0 +1,29 @@
+#projects ul {
+	padding-left: 0;
+}
+
+.card, .one-project {
+	min-width: 200px;
+	width: 100%;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 10px 40px 0;
+}
+
+.card figcaption {
+	line-height: 1.4;
+	margin-top: 10px;
+}
+
+.one-project p {
+	line-height: 1.4;
+}
+
+
+@media only screen and ( min-width: 800px ) {
+
+    .card, .one-project {
+      width: 49%;
+      float: left;
+    }
+  }

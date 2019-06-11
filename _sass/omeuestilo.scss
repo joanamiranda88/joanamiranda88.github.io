@@ -1,6 +1,8 @@
 @import "header";
 @import "footer";
 @import "button";
+@import "cards-and-projects";
+
 
 *{
   	margin: 0;
@@ -61,9 +63,6 @@ img {
 	margin-top: -70px;
 }
 
-
-/*-----------container-----------*/
-
 .container {
 	max-width: 1280px;
 	position: relative;
@@ -71,7 +70,6 @@ img {
 	margin: 100px auto auto;
 }
 
-/*-----------container end-----------*/
 
 
 
@@ -89,32 +87,6 @@ img {
 
 /*-----------whys section end-----------*/
 
-
-
-/*-----------card & projects section-----------*/
-
-#projects ul {
-	padding-left: 0;
-}
-
-.card, .one-project {
-	width: 49%;
-	vertical-align: top;
-	display: inline-block;
-	margin: 0 10px 40px 0;
-}
-
-.card figcaption {
-	line-height: 1.4;
-	margin-top: 10px;
-}
-
-.one-project p {
-	line-height: 1.4;
-}
-
-
-/*-----------card & projects section end-----------*/
 
 
 
@@ -219,157 +191,4 @@ img {
 
 /*-----------contacts section end-----------*/
 
-
-
-
-/* Responsive - two columns become one */
-
-/*-----------media 1280px-----------*/
-
-@media (max-width: 1280px) {
-
-	.card, .one-project, .post-its {
-		display: block;
-		margin: 0 auto;
-	}
-
-	.post-its{
-		border: 0;
-		padding: 0;
-	}
-
-	#emphaty ul {
-		margin: 0;
-	}
-}
-
-/*-----------media 1280px end-----------*/
-
-
-
-/*-----------media 1024px-----------*/
-
-@media (max-width: 1024px) {
-
-	header {	
-  		text-align: center;
-  		height: 150px;
-	}
-
-	header ul {
-		padding-left: 0;
-	}
-
-	h1, h2, h3, figcaption, ul, #education ol, #contacts ul { 
-		padding-left: 20px;
-	}	
-
-	.logo {
-		margin: 10px 0 18px;
-	}
-
-	.menu {
-		float: none;
-	}
-
-	.why-background {
-		display: none;
-	}
-
-	#whys .text-block {
-		background-color: #F3DBD6;
-		position: relative;
-		display: block;
-		top: -20px;
-		left: 0;
-		padding: 20px 0 60px;
-	}
-
-	.text-block h1 {
-		line-height: 1.2;
-	}
-
-	#emphaty h1, #education h1  {
-		margin: -100px 0 0 0;
-	}
-
-	.card, .one-project, .post-its  {
-		width: 100%;
-		margin-bottom: 30px;
-	}
-
-	.one-project .button {
-		margin: 14px 0 20px 20px;
-		padding-left: 20px;
-	}
-
-	.one-project p {
-		line-height: 1.4;
-		margin-left: 20px;		
-	}
-
-	footer {
-		padding: 0;
-	}
-
-	.nav-footer { 
-		width: 100%;
-		margin-top: 30px;
-	}
-
-	.contacts-footer { 
-		width: 100%;
-		text-align: left;
-		float: none;
-		margin: 30px 0 40px;
-	}
-
-}
-
-
-/*-----------media 1024px end-----------*/
-
-
-
-/*-----------media 480px-----------*/
-
-@media (max-width: 480px) {
-
-	body {
-		font-size: 16px;
-		padding-top: 120px;
-	}
-
-	h1 {
-		font-size: 36px;
-		line-height: 1.2;
-	}
-
-	h2 {
-		font-size: 22px;
-	}
-
-	h3 {
-		font-size: 18px;
-		line-height: 1.8;
-	}
-
-	#emphaty ul li { 
-	 	margin-left: 272px;
-	}
-
-	#emphaty li:nth-child(3n+2) {
-	 	margin-left: 240px;
-	}
-
-	#projects .button {
-		font-size: 12px;
-		width: 300px;
-		height: 52px;
-	}
-
-}
-
-
-/*-----------media 480px end-----------*/
 
