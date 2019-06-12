@@ -48,23 +48,6 @@
 		float: none;
 	}
 
-	.why-background {
-		display: none;
-	}
-
-	#whys .text-block {
-		background-color: #F3DBD6;
-		position: relative;
-		display: block;
-		top: -20px;
-		left: 0;
-		padding: 20px 0 60px;
-	}
-
-	.text-block h1 {
-		line-height: 1.2;
-	}
-
 	#emphaty h1, #education h1  {
 		margin: -100px 0 0 0;
 	}
@@ -111,24 +94,6 @@
 
 @media (max-width: 480px) {
 
-	body {
-		font-size: 16px;
-		padding-top: 120px;
-	}
-
-	h1 {
-		font-size: 36px;
-		line-height: 1.2;
-	}
-
-	h2 {
-		font-size: 22px;
-	}
-
-	h3 {
-		font-size: 18px;
-		line-height: 1.8;
-	}
 
 	#emphaty ul li { 
 	 	margin-left: 272px;
@@ -136,12 +101,6 @@
 
 	#emphaty li:nth-child(3n+2) {
 	 	margin-left: 240px;
-	}
-
-	#projects .button {
-		font-size: 12px;
-		width: 300px;
-		height: 52px;
 	}
 
 }

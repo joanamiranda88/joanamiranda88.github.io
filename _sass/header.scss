@@ -1,9 +1,10 @@
 header {	
   	background-color: #2F2929;
     width: 100%;
-  	height: 70px; 
+  	height: 130px; 
     top: 0;
   	position: fixed;
+ 	text-align: center;
  	padding: 18px;
 	z-index: 999;
 }
@@ -23,17 +24,26 @@ header {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	float: right;
 }
 
-.menu ul li {
-	display: inline-block;
+.menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .menu ul li a {
 	color: #F3DBD6;
  	font-size: 20px; 
  	text-decoration: none;
- 	text-align: center;
- 	padding: 12px;
+}
+
+
+@media only screen and ( min-width: 768px ) {
+
+
+
 }

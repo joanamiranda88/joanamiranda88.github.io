@@ -12,11 +12,11 @@
 body {
 	color: #2F2929;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
   	line-height: 1.6;
 	text-align: left;
 	background-color: #FFFBF3;
-	padding-top: 70px;
+	padding-top: 120px;
 }
 
 body a {
@@ -36,9 +36,9 @@ body a:hover {
 
 h1 {
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 40px;
-	line-height: 2;
-	margin: 50px 0 10px;
+	font-size: 32px;
+	line-height: 1;
+	margin: 50px 0 0 10px;
 }
 
 h2 {
@@ -50,12 +50,14 @@ h2 {
 
 h3 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	line-height: 2;
+	font-size: 18px;
+	line-height: 1.8;
+	margin-left: 10px;
 }
 
 img {
 	width: 100%;
+	height: auto;
 }
 
 .scroll-fixer {
@@ -63,26 +65,23 @@ img {
 	margin-top: -70px;
 }
 
-.container {
-	max-width: 1280px;
-	position: relative;
-	display: block;
-	margin: 100px auto auto;
-}
-
-
 
 
 /*-----------whys section-----------*/
 
-#whys .text-block {
-	position: absolute;
-	top: 30px;
-	left: 320px;
+.why-background {
+	display: none;
 }
 
-#whys .text-block h1 {
-	font-size: 50px;
+#whys .text-block {
+	background-color: #F3DBD6;
+	top: -20px;
+	left: 0;
+	padding: 20px 0 60px;
+}
+
+.text-block h1 {
+	line-height: 1.2;
 }
 
 /*-----------whys section end-----------*/
@@ -90,7 +89,7 @@ img {
 
 
 
-/*-----------emphaty section-----------*/
+/*-----------emphaty section-----------*
 
 #emphaty {
 	font-size: 0;
@@ -192,3 +191,30 @@ img {
 /*-----------contacts section end-----------*/
 
 
+@media only screen and ( min-width: 768px ) {
+
+body {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+.why-background {
+	display: flex;
+}
+
+#whys .text-block {
+	text-align: center;
+}
+
+}
