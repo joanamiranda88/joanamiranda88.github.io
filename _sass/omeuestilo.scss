@@ -5,13 +5,11 @@
 @import "empathy";
 
 
-
 *{
   	margin: 0;
   	box-sizing: border-box;
   	list-style-type: none;
 }
-
 
 .container {
 	max-width: 1280px;
@@ -19,11 +17,7 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-gap: 10px;
-	grid-auto-rows: minmax(100px, auto);
-}
-
-.container > * {
-  	grid-column: 1 / 13;
+	grid-auto-rows: minmax(160px, auto);
 }
 
 
@@ -144,9 +138,6 @@ h3 {
 	font-size: 22px;
 }
 
-.why-background {
-	display: flex;
-}
 
 #whys .text-block {
 	text-align: center;
