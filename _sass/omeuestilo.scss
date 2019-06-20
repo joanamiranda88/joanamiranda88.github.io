@@ -2,12 +2,30 @@
 @import "footer";
 @import "button";
 @import "cards-and-projects";
+@import "empathy";
+
 
 
 *{
   	margin: 0;
   	box-sizing: border-box;
+  	list-style-type: none;
 }
+
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.container > * {
+  	grid-column: 1 / 13;
+}
+
 
 body {
 	color: #2F2929;
@@ -38,7 +56,7 @@ h1 {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 32px;
 	line-height: 1;
-	margin: 50px 0 0 10px;
+	margin: 50px 0 20px 20px;
 }
 
 h2 {
@@ -46,18 +64,27 @@ h2 {
 	font-size: 24px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	margin-left: 20px;
 }
 
 h3 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1.8;
-	margin-left: 10px;
+	margin-left: 20px;
+}
+
+p, #education li, #contacts li, #empathy h1, #education h1 {
+	margin-left: 20px;
 }
 
 img {
 	width: 100%;
 	height: auto;
+}
+
+ul, ol {
+	padding: 0px;
 }
 
 .scroll-fixer {
@@ -89,104 +116,12 @@ img {
 
 
 
-/*-----------emphaty section-----------*
-
-#emphaty {
-	font-size: 0;
-}
-
-.post-its { 
- 	width: 50%;
- 	line-height: 1.4;
- 	vertical-align: top;
- 	display: inline-block;
-}
-
-.line-bottom {
-	border-bottom: 3px solid black;
-}
-
-.line-right {
-	border-right: 3px solid black;
-}
-
-.line-left {
-	border-left: 3px solid black;
-	padding-left: 32px;
-}
-
-.line-top {
-	border-top: 3px solid black;
-}
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-#emphaty h1, #education h1  {
-	margin: -110px 0 0;
-}
-
-#emphaty ul {
-	padding: 0;
-}
-
-#emphaty ul li { 
-  	color: #000;
-   	background: #F0E9DB;
-    box-shadow: 3px 3px 3px #D8D4CC;
-    font-size: 18px;
- 	width: 200px;
-  	height: 200px;
-    display:block;
- 	padding: 14px;
- 	margin: -130px 10px 20px 360px;
-}
-
-#emphaty li:first-child {
- 	background: #F3DBD6;
- 	position: absolute;
-  	margin: 10px 0 0;
-	z-index: -1; 	
-}
-
-#emphaty li:nth-child(3n+2) {
- 	background: #F3DBD6;
- 	margin: 38px 0 0 310px;
-}
-
-#emphaty li:nth-child(3n+3) {
- 	background: #FFF469;
- 	margin: -110px 0 10px 60px;
-}
-
-/*-----------emphaty section end-----------*/
-
-
-
-/*-----------education section-----------*/
-
-#education ol {
-	list-style-type: square;
-	padding-left: 20px;
-}
-
-/*-----------education section end-----------*/
-
-
-
 /*-----------contacts section-----------*/
 
 #contacts i {
 	padding-right: 10px;
 }
 
-#contacts ul { 
-	list-style-type: none;
-	padding: 0;
-}
 
 /*-----------contacts section end-----------*/
 

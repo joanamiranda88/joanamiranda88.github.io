@@ -1,6 +1,4 @@
 .button {
-	width: 300px;
-	height: 52px;
 	color: black;
 	box-shadow: 8px 10px #2F2929;
 	border: 3px solid #2F2929;
@@ -8,10 +6,8 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	text-decoration: none;
-	text-align: center;
 	padding: 15px 32px;
-	margin: 20px 0 16px 0;
+	margin-left: 20px;
 }
 
 .button:hover {

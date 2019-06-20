@@ -1,0 +1,48 @@
+#empathy h1, #education h1  {
+	margin: -110px 0 0;
+}
+
+#empathy ul {
+	padding: 0;
+}
+
+#empathy ul li { 
+  	color: #000;
+   	background: #F0E9DB;
+    box-shadow: 3px 3px 3px #D8D4CC;
+    font-size: 18px;
+ 	padding: 14px;
+}
+
+#empathy li:first-child {
+ 	background: #F3DBD6;
+	z-index: -1; 
+}
+
+.post {
+	grid-column: col-start / 7;	
+}
+
+#empathy li:nth-child(3n+2) {
+ 	background: #F3DBD6;
+}
+
+#empathy li:nth-child(3n+3) {
+ 	background: #FFF469;
+}
+
+.line-bottom {
+	border-bottom: 3px solid black;
+}
+
+.line-right {
+	border-right: 0px solid black;
+}
+
+.line-left {
+	border-left: 0px solid black;
+}
+
+.line-top {
+	border-top: 3px solid black;
+}
