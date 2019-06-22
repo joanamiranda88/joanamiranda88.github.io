@@ -1,7 +1,7 @@
 header {	
   	background-color: #2F2929;
     width: 100%;
-  	height: 130px; 
+  	height: 100px; 
     top: 0;
   	position: fixed;
  	text-align: center;
@@ -12,12 +12,14 @@ header {
 .logo {
 	width: 267px;
 	height: 32px;
-	display: inline-block;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
 	background:url(../images/Joana-Miranda-Portfolio-Logo.png);
 	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .menu {
@@ -27,12 +29,11 @@ header {
 }
 
 .menu ul {
-	padding: 0;
-	margin: 0;
 	list-style: none;
 	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .menu ul li a {
@@ -42,12 +43,10 @@ header {
 }
 
 
-
-
 @media only screen and ( min-width: 768px ) {
 
-.menu {
-	display: inline-flex;
-	justify-content: flex-end;
+.menu ul li a {
+ 	font-size: 20px; 
 }
 
+}

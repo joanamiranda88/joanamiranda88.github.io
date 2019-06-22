@@ -7,6 +7,10 @@ footer {
 	padding: 30px 30px 30px 20px;
 	margin-top: 50px;
   	text-decoration: none;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-gap: 20px;
+		grid-auto-rows: minmax(100px, auto);
 }
 
 .nav-footer { 
@@ -14,25 +18,17 @@ footer {
 	text-transform: uppercase;
 	letter-spacing: 1px;
   	line-height: 1.8;
+	grid-column: 1 / 7;
 }
 
 .contacts-footer {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	margin-top: 20px;
+	grid-column: 9 / 13;
 }
 
 .contacts-footer img {
 	width: 36px;
 	height: 36px;
-}
-
-
-
-
-@media only screen and ( min-width: 768px ) {
-
-.contacts-footer li {
-	display: flex;
-	justify-content: flex-end;
 }

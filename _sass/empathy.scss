@@ -1,3 +1,7 @@
+#empathy h1, #education h1  {
+	margin: -110px 0 0;
+}
+
 #empathy ul {
 	padding: 0;
 }
@@ -6,22 +10,35 @@
   	color: #000;
    	background: #F0E9DB;
     box-shadow: 3px 3px 3px #D8D4CC;
-    font-size: 16px;
+    font-size: 18px;
  	padding: 14px;
-	min-width: 160px;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 20px;
+	grid-auto-rows: minmax(100px, auto);
 }
 
 #empathy li:first-child {
- 	background: #000000;
+ 	background: #F3DBD6;
 	z-index: -1; 
 }
 
-#empathy li:nth-chi§ld(3n+2) {
+#empathy li:nth-child(3n+2) {
  	background: #F3DBD6;
 }
 
 #empathy li:nth-child(3n+3) {
  	background: #FFF469;
+}
+
+.post-it1 {
+	grid-column: 1 / 6;
+	grid-row: 1;
+}
+
+.post-it2 {
+	grid-column: 7 / 12;
+	grid-row: 1;
 }
 
 .line-bottom {

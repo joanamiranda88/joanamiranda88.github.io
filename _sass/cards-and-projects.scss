@@ -1,4 +1,4 @@
-.card, .one-project {
+#about {
 	margin-bottom: 40px;
 }
 
@@ -12,3 +12,33 @@
 }
 
 
+@media only screen and ( min-width: 768px ) {
+
+	#about, #projects {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-gap: 20px;
+		grid-auto-rows: minmax(100px, auto);
+	}
+
+	#about h1, #projects h1 {
+		grid-column: 1 / 13;
+	}
+
+	.card1, .project1 {
+		grid-column: 1 / 7;
+	}
+
+	.card2, .project2 {
+		grid-column: 7 / 13;
+	}
+
+	.card3, .project3 {
+		grid-column: 1 / 7;
+	}
+
+	.card4, .project4 {
+		grid-column: 7 / 13;
+	}
+
+}
