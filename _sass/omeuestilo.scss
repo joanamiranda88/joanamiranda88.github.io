@@ -13,12 +13,10 @@
   	list-style-type: none;
 }
 
-
 .container {
 	max-width: 1280px;
 	margin: 0 auto;
 }
-
 
 body {
 	color: #2F2929;
@@ -39,6 +37,15 @@ body a {
 
 body a:hover { 
   	border-bottom: 4px solid;
+}
+
+nav a {
+	transition: background-color 1s linear;
+}
+
+nav a:hover {
+	color: #2F2929;
+	background-color: #FFF469;
 }
 
 ::selection { 

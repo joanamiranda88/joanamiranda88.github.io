@@ -1,5 +1,6 @@
 .button {
 	color: black;
+	background-color: #FFFBF3; 
 	box-shadow: 8px 10px #2F2929;
 	border: 3px solid #2F2929;
 	font-size: 14px;
@@ -8,9 +9,13 @@
 	letter-spacing: 1px;
 	padding: 15px 32px;
 	margin: 20px 0 40px 20px;
+	background: linear-gradient(to right, #2F2929 50%, #FFFBF3 50%);
+ 	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .5s ease-out;
 }
 
 .button:hover {
 	color: white;
-	background-color: #2F2929; 
+	background-position: left bottom;
 }

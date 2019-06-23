@@ -6,6 +6,19 @@
 
 .text-block h1 {
 	line-height: 1.2;
+	animation: slide 2s 2;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 
