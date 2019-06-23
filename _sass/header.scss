@@ -4,9 +4,9 @@ header {
   	height: 100px; 
     top: 0;
   	position: fixed;
- 	text-align: center;
  	padding: 18px;
 	z-index: 999;
+	text-align: center;
 }
 
 .logo {
@@ -18,23 +18,19 @@ header {
 	overflow: hidden;
 	background:url(../images/Joana-Miranda-Portfolio-Logo.png);
 	background-repeat: no-repeat;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-.menu {
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
 }
 
 .menu ul {
-	list-style: none;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-end;
-	align-items: center;
+	justify-content: center;
+}
+
+.menu ul li {
+	list-style: none;
+	padding-right: 20px;
 }
 
 .menu ul li a {
@@ -45,8 +41,17 @@ header {
 
 
 @media only screen and ( min-width: 768px ) {
+	
+	header {	
+	text-align: left;
+	}
 
-	.menu ul li a {
+	.menu ul {
+	justify-content: flex-end;
+	align-items: center;
+	}
+
+	.menu ul li {
 	 	font-size: 20px; 
 	}
 
