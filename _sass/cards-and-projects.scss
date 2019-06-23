@@ -14,14 +14,14 @@
 
 @media only screen and ( min-width: 768px ) {
 
-	#about, #projects {
+	#about, .projects {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
 		grid-gap: 20px;
 		grid-auto-rows: minmax(100px, auto);
 	}
 
-	#about h1, #projects h1 {
+	#about h1, .projects h1 {
 		grid-column: 1 / 13;
 	}
 

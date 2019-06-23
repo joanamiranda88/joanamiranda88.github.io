@@ -3,7 +3,6 @@ layout: default
 ---
 
     <section id="whys">
-        <img src="assets/images/Joana-Miranda-Portfolio-Why-Background@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Why-Background@2x.png" class="why-background"> 
         <div class="text-block">
           <h1>5 whys I wanna be a UX designer</h1>
           <h3><em>Why?</em> I always fall in love with the problem.</h3>
@@ -78,7 +77,7 @@ layout: default
         <ul class="projects">
           
         {% for post in site.posts %}
-          <li class="one-project">
+          <li class="{{ post.class }}">
             <img src="{{ post.image }}" alt="{{ post.alt }}">
             <h3>{{ post.title }}</h3>
             <p>{{ post.content }}</p>
