@@ -12,6 +12,7 @@ header {
 .logo {
 	width: 267px;
 	height: 32px;
+	display: inline-block;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -45,8 +46,8 @@ header {
 
 @media only screen and ( min-width: 768px ) {
 
-.menu ul li a {
- 	font-size: 20px; 
-}
+	.menu ul li a {
+	 	font-size: 20px; 
+	}
 
 }
