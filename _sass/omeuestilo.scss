@@ -1,9 +1,10 @@
 @import "header";
-@import "footer";
 @import "button";
+@import "whys";
 @import "cards-and-projects";
 @import "empathy";
-
+@import "contacts";
+@import "footer";
 
 
 *{
@@ -86,34 +87,6 @@ ul, ol {
 
 
 
-/*-----------whys section-----------*/
-
-
-#whys .text-block {
-	background-color: #F3DBD6;
-	left: 0;
-	padding: 10px 0 60px;
-}
-
-.text-block h1 {
-	line-height: 1.2;
-}
-
-/*-----------whys section end-----------*/
-
-
-
-
-/*-----------contacts section-----------*/
-
-#contacts i {
-	padding-right: 10px;
-}
-
-
-/*-----------contacts section end-----------*/
-
-
 @media only screen and ( min-width: 768px ) {
 
 	body {
@@ -130,10 +103,6 @@ ul, ol {
 
 	h3 {
 		font-size: 20px;
-	}
-
-	#whys .text-block {
-		text-align: center;
 	}
 
 }
