@@ -31,14 +31,14 @@ footer {
 @media only screen and ( min-width: 768px ) {
 
 	footer {
-	display: grid;
-	grid-template-columns: 80% 20%;
+		display: grid;
+		grid-template-columns: 80% 20%;
 	}
 
 	.contacts-footer {
-	display: flex;
-	align-items: flex-end;
-	margin-top: 0;
+		display: flex;
+		align-items: flex-end;
+		margin-top: 0;
 	}
 	
 }
