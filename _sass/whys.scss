@@ -1,5 +1,5 @@
 #whys .text-block {
-	background-color: #F3DBD6;
+	background-color: $mypink;
 	left: 0;
 	padding: 10px 0 60px;
 }
@@ -8,6 +8,7 @@
 	line-height: 1.2;
 	animation: slide 2s 2;
 }
+
 
 @keyframes slide {
   from {

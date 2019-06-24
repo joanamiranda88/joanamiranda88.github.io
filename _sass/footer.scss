@@ -1,23 +1,23 @@
 footer li > a { 
-	color: #F3DBD6;
+	color: $mypink;
 }
 
 footer {
-	background-color: #2F2929;
+	background-color: $mygray;
 	padding: 30px 30px 30px 20px;
 	margin-top: 50px;
   	text-decoration: none;
 }
 
 .nav-footer { 
-  	font-family: 'Barlow Semi Condensed', sans-serif;
+  	font-family: $title-type;
 	text-transform: uppercase;
 	letter-spacing: 1px;
   	line-height: 1.8;
 }
 
 .contacts-footer {
-	font-family: 'Roboto', sans-serif;
+	font-family: $sans-type;
 	font-size: 12px;
 	margin-top: 20px;
 }

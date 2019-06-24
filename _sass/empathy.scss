@@ -12,9 +12,9 @@
 }
 
 #empathy ul li { 
-  	color: #000;
-   	background: #F0E9DB;
-    box-shadow: 3px 3px 3px #D8D4CC;
+  	color: $mygray;
+   	background: $mylightgray;
+    box-shadow: 3px 3px 3px $mylightgray;
     font-size: 14px;
  	padding: 14px;
  	line-height: 1.4;
@@ -23,16 +23,16 @@
 }
 
 #empathy li:first-child {
- 	background: #F3DBD6;
+ 	background: $mypink;
 	z-index: -1; 
 }
 
 #empathy li:nth-child(3n+2) {
- 	background: #F3DBD6;
+ 	background: $mypink;
 }
 
 #empathy li:nth-child(3n+3) {
- 	background: #FFF469;
+ 	background: $myyelllow;
 }
 
 .post-it1 {
