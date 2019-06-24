@@ -1,3 +1,6 @@
+@import 'variables-colors';
+@import 'variables-typography';
+
 #about, .projects {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);

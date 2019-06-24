@@ -1,27 +1,20 @@
-@import "header";
-@import "button";
-@import "whys";
-@import "cards-and-projects";
-@import "empathy";
-@import "contacts";
-@import "footer";
+@import 'header';
+@import 'footer';
 
-$mygray: #2F2929;
-$mylightgray: #F0E9DB;
-$mybeige: #FFFBF3;
-$mypink: #F3DBD6;
-$myyelllow: #FFF469;
+@import 'components-button';
 
-$sans-type: ('Roboto', sans-serif);
-$title-type: ('Barlow Semi Condensed', sans-serif);
+@import 'home-whys';
+@import 'home-cards-and-projects';
+@import 'home-empathy';
+@import 'home-contacts';
 
-$margin-0: margin-left: 0;
-
+@import 'variables-colors';
+@import 'variables-typography';
 
 *{
-  	margin: 0;
-  	box-sizing: border-box;
-  	list-style-type: none;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
 }
 
 .container {
@@ -33,9 +26,9 @@ body {
 	color: $mygray;
 	font-family: $sans-type;
 	font-size: 14px;
-  	line-height: 1.6;
+  line-height: 1.6;
 	text-align: left;
-	background-color: #FFFBF3;
+	background-color: $mybeige;
 	padding-top: 120px;
 }
 
@@ -46,7 +39,7 @@ body a {
 	list-style-type: none;
 }
 
-body a:hover { 
+body a:hover {
   	border-bottom: 4px solid;
 }
 
@@ -59,7 +52,7 @@ nav a:hover {
 	background-color: $myyelllow;
 }
 
-::selection { 
+::selection {
 	background: $myyelllow;
 }
 
@@ -113,12 +106,10 @@ ul, ol {
 
 	h1 {
 		font-size: 42px;
-		margin-left: $margin-0;
 	}
 
 	h2 {
 		font-size: 30px;
-		margin-left: $margin-0;
 	}
 
 	h3 {

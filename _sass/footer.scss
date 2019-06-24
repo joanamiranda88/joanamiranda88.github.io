@@ -1,19 +1,22 @@
-footer li > a { 
-	color: $mypink;
-}
+@import 'variables-colors';
+@import 'variables-typography';
 
 footer {
 	background-color: $mygray;
 	padding: 30px 30px 30px 20px;
 	margin-top: 50px;
-  	text-decoration: none;
+  text-decoration: none;
+
+	li > a {
+		color: $mypink;
+	}
 }
 
-.nav-footer { 
-  	font-family: $title-type;
+.nav-footer {
+  font-family: $title-type;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-  	line-height: 1.8;
+  line-height: 1.8;
 }
 
 .contacts-footer {
@@ -40,5 +43,5 @@ footer {
 		align-items: flex-end;
 		margin-top: 0;
 	}
-	
+
 }

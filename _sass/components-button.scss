@@ -1,6 +1,9 @@
+@import 'variables-colors';
+@import 'variables-typography';
+
 .button {
 	color: $mygray;
-	background-color: $mybeige; 
+	background-color: $mybeige;
 	box-shadow: 8px 10px $mygray;
 	border: 3px solid $mygray;
 	font-size: 14px;
@@ -13,9 +16,9 @@
  	background-size: 200% 100%;
 	background-position: right bottom;
 	transition: all .5s ease-out;
-}
 
-.button:hover {
-	color: $mybeige;
-	background-position: left bottom;
+	:hover {
+		color: $mybeige;
+		background-position: left bottom;
+	}
 }

@@ -1,3 +1,6 @@
+@import 'variables-colors';
+@import 'variables-typography';
+
 #empathy h1, #education h1  {
 	margin: -110px 0 0;
 }
@@ -11,7 +14,7 @@
 	height: 160px;
 }
 
-#empathy ul li { 
+#empathy ul li {
   	color: $mygray;
    	background: $mylightgray;
     box-shadow: 3px 3px 3px $mylightgray;
@@ -24,7 +27,7 @@
 
 #empathy li:first-child {
  	background: $mypink;
-	z-index: -1; 
+	z-index: -1;
 }
 
 #empathy li:nth-child(3n+2) {
