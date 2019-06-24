@@ -6,7 +6,6 @@ footer {
 	padding: 30px 30px 30px 20px;
 	margin-top: 50px;
   text-decoration: none;
-
 	li > a {
 		color: $mypink;
 	}
@@ -23,11 +22,10 @@ footer {
 	font-family: $sans-type;
 	font-size: 12px;
 	margin-top: 20px;
-}
-
-.contacts-footer img {
-	width: 36px;
-	height: 36px;
+	img {
+		width: 36px;
+		height: 36px;
+	}
 }
 
 

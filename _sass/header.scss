@@ -29,21 +29,19 @@ header {
 	letter-spacing: 1px;
 	display: flex;
 	justify-content: center;
-}
-
-.menu ul li {
-	list-style: none;
-	padding-right: 20px;
+  li {
+    list-style: none;
+	  padding-right: 20px;
+  }
 }
 
 .menu ul li a {
 	color: $mypink;
  	font-size: 16px;
  	text-decoration: none;
-}
-
-.menu ul li a:hover {
-	color: $mygray;
+  &:hover {
+  	color: $mygray;
+  }
 }
 
 
@@ -56,10 +54,7 @@ header {
 	.menu ul {
 		justify-content: flex-end;
 		align-items: center;
-	}
-
-	.menu ul li {
-	 	font-size: 20px;
-	}
-
+    li {
+  	   font-size: 20px;
+	  }
 }

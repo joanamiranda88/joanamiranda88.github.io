@@ -2,6 +2,7 @@
 @import 'variables-typography';
 
 #about, .projects {
+	margin-bottom: 40px;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-gap: 20px;
@@ -9,10 +10,6 @@
 
 .card1, .card2, .card3, .card4, .projects > *, h1 {
 	grid-column: 1 / 13;
-}
-
-#about {
-	margin-bottom: 40px;
 }
 
 .card figcaption {

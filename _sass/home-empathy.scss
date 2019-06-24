@@ -12,30 +12,27 @@
 	grid-column-gap: 10px;
 	grid-template-rows: repeat(11, 1fr);
 	height: 160px;
-}
-
-#empathy ul li {
-  	color: $mygray;
-   	background: $mylightgray;
-    box-shadow: 3px 3px 3px $mylightgray;
-    font-size: 14px;
- 	padding: 14px;
- 	line-height: 1.4;
-  	min-width: 110px;
-  	min-height: 110px;
+	li {
+		color: $mygray;
+		background: $mylightgray;
+		box-shadow: 3px 3px 3px $mylightgray;
+		font-size: 14px;
+		padding: 14px;
+		line-height: 1.4;
+		min-width: 110px;
+		min-height: 110px;
+	}
 }
 
 #empathy li:first-child {
  	background: $mypink;
 	z-index: -1;
-}
-
-#empathy li:nth-child(3n+2) {
- 	background: $mypink;
-}
-
-#empathy li:nth-child(3n+3) {
- 	background: $myyelllow;
+		&:nth-child(3n+2) {
+	 		background: $mypink;
+		}
+		&:nth-child(3n+3) {
+	 		background: $myyelllow;
+		}
 }
 
 .post-it1 {

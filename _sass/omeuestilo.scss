@@ -17,6 +17,10 @@
   list-style-type: none;
 }
 
+::selection {
+	background: $myyelllow;
+}
+
 .container {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -30,30 +34,23 @@ body {
 	text-align: left;
 	background-color: $mybeige;
 	padding-top: 120px;
-}
-
-body a {
-	color: $mygray;
-	cursor: cell;
-	text-decoration: none;
-	list-style-type: none;
-}
-
-body a:hover {
-  	border-bottom: 4px solid;
+  a {
+	  color: $mygray;
+	  cursor: cell;
+	  text-decoration: none;
+    list-style-type: none;
+    &:hover {
+       border-bottom: 4px solid;
+    }
+  }
 }
 
 nav a {
 	transition: background-color 1s linear;
-}
-
-nav a:hover {
+  &:hover {
 	color: $mygray;
 	background-color: $myyelllow;
-}
-
-::selection {
-	background: $myyelllow;
+  }
 }
 
 h1 {
@@ -95,7 +92,6 @@ ul, ol {
 	padding-top: 110px;
 	margin-top: -70px;
 }
-
 
 
 @media only screen and ( min-width: 768px ) {
