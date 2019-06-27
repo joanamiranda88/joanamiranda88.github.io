@@ -1,20 +1,12 @@
-@import 'variables-colors';
-@import 'variables-typography';
+@import 'variables';
 
-#about, .projects {
-	margin-bottom: 40px;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-gap: 20px;
-}
-
-.card1, .card2, .card3, .card4, .projects > *, h1 {
-	grid-column: 1 / 13;
+.card, .projects > li {
+	margin: 0 10px 40px 0;
 }
 
 .card figcaption {
 	line-height: 1.4;
-	margin: 10px 0 0 20px;
+	margin: 10px 0 0 10px;
 }
 
 .one-project p {
@@ -24,24 +16,10 @@
 
 @media only screen and ( min-width: 768px ) {
 
-	#about h1, .projects h1 {
-		grid-column: 1 / 13;
-	}
-
-	.card1, .project1 {
-		grid-column: 1 / 7;
-	}
-
-	.card2, .project2 {
-		grid-column: 7 / 13;
-	}
-
-	.card3, .project3 {
-		grid-column: 1 / 7;
-	}
-
-	.card4, .project4 {
-		grid-column: 7 / 13;
-	}
-
-}
+    .card, .one-project {
+		width: 49%;
+		display: inline-flex;
+ 		flex-wrap: wrap;
+		padding: 0;
+		}
+ 	}

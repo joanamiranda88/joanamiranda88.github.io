@@ -1,5 +1,4 @@
-@import 'variables-colors';
-@import 'variables-typography';
+@import 'variables';
 
 .button {
 	color: $mygray;
@@ -16,7 +15,6 @@
  	background-size: 200% 100%;
 	background-position: right bottom;
 	transition: all .5s ease-out;
-
 	&:hover {
 		color: $mybeige;
 		background-position: left bottom;
