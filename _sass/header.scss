@@ -8,7 +8,10 @@ header {
   position: fixed;
  	padding: 18px;
 	z-index: 999;
-	text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -27,7 +30,7 @@ header {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: flex;
-	justify-content: center;
+
   li {
     list-style: none;
 	  padding-right: 20px;
@@ -47,13 +50,15 @@ header {
 @media only screen and ( min-width: 768px ) {
 
 	header {
-		text-align: left;
+    justify-content: flex-end;
 	}
 
-	.menu ul {
-		justify-content: flex-end;
-		align-items: center;
-    li {
-  	   font-size: 20px;
-	  }
+  .logo {
+    flex: 1;
+}
+
+	.menu ul li {
+  	font-size: 20px;
+    text-align: right;
+  }
 }
