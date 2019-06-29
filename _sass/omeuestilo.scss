@@ -61,12 +61,12 @@ h2 {
 
 h3 {
   @include font-source-sans(18px, 1.8);
-  @include margin-left-mobile-20;
+  margin-left: $margin-mobile;
   margin-top: 20px;
 }
 
 p, #education li, #contacts li, #empathy h1, #education h1 {
-  @include margin-left-mobile-20;
+  margin-left: $margin-mobile;
 }
 
 img {
@@ -87,31 +87,31 @@ ul, ol {
 @media only screen and ( min-width: 768px ) {
 
   * {
-    @include margin-left-desktop-0;
+    margin-left: $margin-desktop;
   }
 
 	body {
 		font-size: 16px;
-    @include margin-left-desktop-0;
+    margin-left: $margin-desktop;
 	}
 
 	h1 {
 		font-size: 42px;
-    @include margin-left-desktop-0;
+    margin-left: $margin-desktop;
 	}
 
 	h2 {
 		font-size: 30px;
-    @include margin-left-desktop-0;
+    margin-left: $margin-desktop;
 	}
 
 	h3 {
 		font-size: 20px;
-    @include margin-left-desktop-0;
+    margin-left: $margin-desktop;
 	}
 
   p, #education li, #contacts li, #empathy h1, #education h1 {
-    @include margin-left-desktop-0;
+    margin-left: $margin-desktop;
   }
 
 }

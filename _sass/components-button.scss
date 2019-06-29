@@ -22,7 +22,7 @@
 @media only screen and ( min-width: 768px ) {
 
   .button {
-    @include margin-left-desktop-0;
+    margin-left: $margin-desktop;
   }
 
 }

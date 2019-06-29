@@ -3,6 +3,8 @@ $mylightgray: #F0E9DB;
 $mybeige: #FFFBF3;
 $mypink: #F3DBD6;
 $myyelllow: #FFF469;
+$margin-mobile: 20px;
+$margin-desktop: 0px;
 
 $sans-type: ('Roboto', sans-serif);
 $title-type: ('Barlow Semi Condensed', sans-serif);
@@ -15,14 +17,6 @@ $title-type: ('Barlow Semi Condensed', sans-serif);
 @mixin uppercase {
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-@mixin margin-left-mobile-20 {
-  margin-left: 20px;
-}
-
-@mixin margin-left-desktop-0 {
-  margin-left: 0px;
 }
 
 @mixin font-source-sans($size: false, $colour: false, $lh: false) {

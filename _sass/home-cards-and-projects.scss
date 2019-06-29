@@ -24,6 +24,6 @@
 
 		.card figcaption {
 			line-height: 1.4;
-			@include margin-left-desktop-0;
+			margin-left: $margin-desktop;
 		}
  	}
