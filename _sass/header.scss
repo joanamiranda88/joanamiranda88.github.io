@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variables-mixins';
 
 header {
   background-color: $mygray;
@@ -8,10 +8,9 @@ header {
   position: fixed;
  	padding: 18px;
 	z-index: 999;
-  display: flex;
+  @include inline-flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .logo {
@@ -27,8 +26,7 @@ header {
 
 .menu ul {
 	font-family: $title-type;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+  @include uppercase;
 	display: flex;
 
   li {

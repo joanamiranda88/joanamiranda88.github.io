@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variables-mixins';
 
 .card, .projects > li {
 	margin: 0 10px 40px 0;
@@ -6,7 +6,7 @@
 
 .card figcaption {
 	line-height: 1.4;
-	margin: 10px 0 0 10px;
+	margin: 20px 0 0 20px;
 }
 
 .one-project p {
@@ -17,9 +17,13 @@
 @media only screen and ( min-width: 768px ) {
 
     .card, .one-project {
-		width: 49%;
-		display: inline-flex;
- 		flex-wrap: wrap;
-		padding: 0;
+			@include inline-flex;
+			width: 49%;
+			padding: 0;
+		}
+
+		.card figcaption {
+			line-height: 1.4;
+			@include margin-left-desktop-0;
 		}
  	}

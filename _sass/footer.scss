@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variables-mixins';
 
 footer {
 	background-color: $mygray;
@@ -12,13 +12,11 @@ footer {
 
 .nav-footer {
   font-family: $title-type;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	@include uppercase;
   line-height: 1.8;
 }
 
 .contacts-footer {
-	font-family: $sans-type;
 	font-size: 12px;
 	margin-top: 20px;
 	img {

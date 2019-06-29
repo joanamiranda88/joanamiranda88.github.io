@@ -1,11 +1,9 @@
-@import 'variables';
+@import 'variables-mixins';
 
 #whys .text-block {
 	background-color: $mypink;
-	left: 0;
 	padding: 10px 0 60px;
 	h1 {
-		line-height: 1.2;
 		animation: slide 2s 2;
 	}
 }

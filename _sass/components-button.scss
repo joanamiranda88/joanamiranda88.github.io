@@ -1,14 +1,11 @@
-@import 'variables';
+@import 'variables-mixins';
 
 .button {
-	color: $mygray;
 	background-color: $mybeige;
 	box-shadow: 8px 10px $mygray;
 	border: 3px solid $mygray;
-	font-size: 14px;
 	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	@include uppercase;
 	padding: 15px 32px;
 	margin: 20px 0 40px 20px;
 	background: linear-gradient(to right, $mygray 50%, $mybeige 50%);
@@ -19,4 +16,13 @@
 		color: $mybeige;
 		background-position: left bottom;
 	}
+}
+
+
+@media only screen and ( min-width: 768px ) {
+
+  .button {
+    @include margin-left-desktop-0;
+  }
+
 }
