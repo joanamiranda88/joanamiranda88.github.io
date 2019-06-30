@@ -9,15 +9,6 @@ $margin-desktop: 0px;
 $sans-type: ('Roboto', sans-serif);
 $title-type: ('Barlow Semi Condensed', sans-serif);
 
-@mixin inline-flex {
-  display: inline-flex;
-  flex-wrap: wrap;
-}
-
-@mixin uppercase {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
 
 @mixin font-source-sans($size: false, $colour: false, $lh: false) {
   font-family: $sans-type;
@@ -31,4 +22,32 @@ $title-type: ('Barlow Semi Condensed', sans-serif);
   @if $size { font-size: $size; }
   @if $colour { color: $colour; }
   @if $lh { line-height: $lh; }
+}
+
+@mixin uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@mixin headings-margin {
+    h1, h2, h3 {
+        @content;
+    }
+}
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 }

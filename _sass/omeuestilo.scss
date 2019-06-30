@@ -49,23 +49,35 @@ nav a {
 }
 
 h1 {
-  @include font-source-sans-condesed(32px, 1.2);
-	margin: 50px 0 20px 20px;
+  @include font-source-sans-condesed(32px, $mygray, 1.2);
+  margin-bottom: 20px;
 }
 
 h2 {
-  @include font-source-sans-condesed(24px);
+  @include font-source-sans-condesed(24px, $mygray);
   @include uppercase;
-	@include margin-left-mobile-20;
 }
 
 h3 {
-  @include font-source-sans(18px, 1.8);
-  margin-left: $margin-mobile;
-  margin-top: 20px;
+  @include font-source-sans(18px, $mygray, 1.4);
 }
 
-p, #education li, #contacts li, #empathy h1, #education h1 {
+@include headings-margin {
+  margin-top: 20px;
+  margin-left: $margin-mobile;
+}
+
+#empathy h1, #education h1  {
+  margin-top: -110px;
+  margin-left: $margin-mobile;
+}
+
+.scroll-fixer {
+	padding-top: 110px;
+	margin-top: -70px;
+}
+
+p, #education li, #contacts li {
   margin-left: $margin-mobile;
 }
 
@@ -78,39 +90,33 @@ ul, ol {
 	padding: 0px;
 }
 
-.scroll-fixer {
-	padding-top: 110px;
-	margin-top: -70px;
-}
-
-
 @media only screen and ( min-width: 768px ) {
 
-  * {
+  body * {
+    margin-left: $margin-desktop;
+  }
+
+  p, #education li, #contacts li {
     margin-left: $margin-desktop;
   }
 
 	body {
 		font-size: 16px;
-    margin-left: $margin-desktop;
 	}
 
-	h1 {
+  h1 {
 		font-size: 42px;
-    margin-left: $margin-desktop;
 	}
 
 	h2 {
 		font-size: 30px;
-    margin-left: $margin-desktop;
 	}
 
 	h3 {
 		font-size: 20px;
-    margin-left: $margin-desktop;
 	}
 
-  p, #education li, #contacts li, #empathy h1, #education h1 {
+  #empathy h1, #education h1  {
     margin-left: $margin-desktop;
   }
 

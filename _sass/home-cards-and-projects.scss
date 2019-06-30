@@ -1,7 +1,11 @@
 @import 'variables-mixins';
 
 .card, .projects > li {
-	margin: 0 10px 40px 0;
+	margin-bottom: 40px;
+}
+
+.card img, .projects img {
+	@include aspect-ratio(4, 3);
 }
 
 .card figcaption {
@@ -17,7 +21,8 @@
 @media only screen and ( min-width: 768px ) {
 
     .card, .one-project {
-			@include inline-flex;
+			display: inline-flex;
+			flex-wrap: wrap;
 			width: 49%;
 			padding: 0;
 		}
