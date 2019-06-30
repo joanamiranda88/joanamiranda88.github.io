@@ -5,6 +5,8 @@ footer {
 	padding: 30px 30px 30px 20px;
 	margin-top: 50px;
   text-decoration: none;
+	display: flex;
+	flex-direction: column;
 	li > a {
 		color: $mypink;
 	}
@@ -25,6 +27,37 @@ footer {
 	}
 }
 
+.top {
+  width: 50px;
+  height: 50px;
+  color: $mygray;
+  background: $mypink;
+  font-size: 22px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+	margin-top: 30px;
+	align-self: flex-end;
+	animation: bounce 2s ease-in-out 3s infinite;
+  &:hover {
+    background: $myyelllow;
+  }
+}
+
+@keyframes bounce {
+  50% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 @media only screen and ( min-width: 768px ) {
 
@@ -37,6 +70,13 @@ footer {
 		display: flex;
 		align-items: flex-end;
 		margin-top: 0;
+		text-align: center;
 	}
 
+	.top {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		justify-self: end;
+	 }
+	 
 }

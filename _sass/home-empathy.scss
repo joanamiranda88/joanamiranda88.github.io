@@ -12,16 +12,16 @@
 }
 
 #empathy li {
+		display: flex;
+		align-items: flex-start;
 		color: $mygray;
 		background: $mylightgray;
 		box-shadow: 3px 3px 3px $mylightgray;
-		font-size: 14px;
-		padding: 14px;
+		padding: 20px;
 		line-height: 1.4;
 		@include aspect-ratio(1, 1);
 		max-width: 200px;
 		margin-bottom: 40px;
-		align-self: start;
 		&:first-child {
 			background: $mypink;
 		}
@@ -31,6 +31,10 @@
 		&:nth-child(3n+3) {
 			background: $myyelllow;
 		}
+}
+
+#empathy li:before {
+		width: 0;
 }
 
 hr {
@@ -76,5 +80,4 @@ hr {
 			border-right: 3px solid $mygray;
 			height: 100%;
 		}
-
  	}
