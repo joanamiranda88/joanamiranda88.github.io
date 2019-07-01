@@ -1,0 +1,66 @@
+@import 'variables-mixins';
+
+#whys {
+	min-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background-color: $mypink;
+	background-size: cover;
+}
+
+#whys .text-block {
+	padding: 10px 0 60px;
+}
+
+#contacts i {
+	padding-right: 10px;
+}
+
+.mouse {
+	position: absolute;
+	top: 88%;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	width: 34px;
+	height: 60px;
+	border: 2px solid $mygray;
+	border-radius: 50px;
+	opacity: 0.3;
+	&::before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		width: 6px;
+		height: 6px;
+		background: $mygray;
+		border-radius: 50%;
+		opacity: 0.3;
+		transform: translate(-50%);
+		animation: mouse 2s infinite;
+	}
+
+	@keyframes mouse {
+		from {
+			opacity: 1;
+			top: 12px;
+		}
+		to {
+			opacity: 0;
+			top: 50px;
+		}
+	}
+
+}
+
+@media only screen and ( min-width: 768px ) {
+
+	#whys {
+		height: 100vh;
+	}
+
+	#whys .text-block {
+		padding-top: 130px;
+		text-align: center;
+	}
+
+}
