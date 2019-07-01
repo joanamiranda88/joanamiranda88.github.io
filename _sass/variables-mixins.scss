@@ -1,10 +1,11 @@
+$margin-mobile: 20px;
+$margin-desktop: 0px;
+
 $mygray: #2F2929;
 $mylightgray: #F0E9DB;
 $mybeige: #FFFBF3;
 $mypink: #F3DBD6;
 $myyelllow: #FFF469;
-$margin-mobile: 20px;
-$margin-desktop: 0px;
 
 $sans-type: ('Roboto', sans-serif);
 $title-type: ('Barlow Semi Condensed', sans-serif);
@@ -17,7 +18,7 @@ $title-type: ('Barlow Semi Condensed', sans-serif);
   @if $lh { line-height: $lh; }
 }
 
-@mixin font-source-sans-condesed($size: false, $colour: false, $lh: false) {
+@mixin font-source-sans-condensed($size: false, $colour: false, $lh: false) {
   font-family: $title-type;
   @if $size { font-size: $size; }
   @if $colour { color: $colour; }

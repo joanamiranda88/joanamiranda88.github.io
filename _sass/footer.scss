@@ -1,12 +1,12 @@
 @import 'variables-mixins';
 
 footer {
-	background-color: $mygray;
-	padding: 30px 30px 30px 20px;
-	margin-top: 50px;
-  text-decoration: none;
 	display: flex;
 	flex-direction: column;
+	padding: 30px 30px 30px 20px;
+	margin-top: 50px;
+	background-color: $mygray;
+  text-decoration: none;
 	li > a {
 		color: $mypink;
 	}
@@ -19,8 +19,8 @@ footer {
 }
 
 .contacts-footer {
-	font-size: 12px;
 	margin-top: 20px;
+	font-size: 12px;
 	img {
 		width: 36px;
 		height: 36px;
@@ -28,16 +28,16 @@ footer {
 }
 
 .top {
-  width: 50px;
+	align-self: flex-end;
+	width: 50px;
   height: 50px;
-  color: $mygray;
-  background: $mypink;
+	margin-top: 30px;
+	background: $mypink;
+	color: $mygray;
   font-size: 22px;
   text-decoration: none;
   text-align: center;
   line-height: 50px;
-	margin-top: 30px;
-	align-self: flex-end;
 	animation: bounce 2s ease-in-out 3s infinite;
   &:hover {
     background: $myyelllow;
@@ -63,7 +63,7 @@ footer {
 
 	footer {
 		display: grid;
-		grid-template-columns: 80% 20%;
+		grid-template-columns: 3fr 1fr;
 	}
 
 	.contacts-footer {
@@ -73,10 +73,15 @@ footer {
 		text-align: center;
 	}
 
+	.contacts-footer ul li a {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.top {
-		grid-column-start: 1;
+		grid-column-start: 2;
 		grid-column-end: 3;
 		justify-self: end;
 	 }
-	 
+
 }

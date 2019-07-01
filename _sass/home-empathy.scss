@@ -14,14 +14,14 @@
 #empathy li {
 		display: flex;
 		align-items: flex-start;
+		max-width: 200px;
+		padding: 20px;
+		margin-bottom: 40px;
 		color: $mygray;
 		background: $mylightgray;
 		box-shadow: 3px 3px 3px $mylightgray;
-		padding: 20px;
 		line-height: 1.4;
 		@include aspect-ratio(1, 1);
-		max-width: 200px;
-		margin-bottom: 40px;
 		&:first-child {
 			background: $mypink;
 		}
@@ -33,7 +33,7 @@
 		}
 }
 
-#empathy li:before {
+#empathy li::before {
 		width: 0;
 }
 

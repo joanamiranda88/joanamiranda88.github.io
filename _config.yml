@@ -15,9 +15,3 @@ exclude:
 # refer to http://shopify.github.io/liquid/filters/date/ if you
 # want to customize this
 date_format: "%b %-d, %Y"
-
-# generate social links in footer
-social_links:
-  twitter: joanamiranda88
-  github:  joanamiranda88
-  # facebook:

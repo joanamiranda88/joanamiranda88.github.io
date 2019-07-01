@@ -3,10 +3,9 @@
 
 @import 'components-button';
 
-@import 'home-whys';
+@import 'home-whys-and-contacts';
 @import 'home-cards-and-projects';
 @import 'home-empathy';
-@import 'home-contacts';
 
 @import 'variables-mixins';
 
@@ -26,9 +25,9 @@
 }
 
 body {
-  @include font-source-sans(14px, $mygray, 1.6);
-	background-color: $mybeige;
 	padding-top: 120px;
+  background-color: $mybeige;
+  @include font-source-sans(14px, $mygray, 1.6);
   a {
 	  color: $mygray;
 	  cursor: cell;
@@ -49,12 +48,12 @@ nav a {
 }
 
 h1 {
-  @include font-source-sans-condesed(32px, $mygray, 1.2);
   margin-bottom: 20px;
+  @include font-source-sans-condensed(32px, $mygray, 1.2);
 }
 
 h2 {
-  @include font-source-sans-condesed(24px, $mygray);
+  @include font-source-sans-condensed(24px, $mygray);
   @include uppercase;
 }
 
@@ -120,5 +119,4 @@ ul, ol {
   #empathy h1, #education h1  {
     margin-left: $margin-desktop;
   }
-
 }

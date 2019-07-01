@@ -1,13 +1,13 @@
 @import 'variables-mixins';
 
 .button {
+	padding: 15px 32px;
+	margin: 20px 0 40px 20px;
 	background-color: $mybeige;
 	box-shadow: 8px 10px $mygray;
 	border: 3px solid $mygray;
 	font-weight: bold;
 	@include uppercase;
-	padding: 15px 32px;
-	margin: 20px 0 40px 20px;
 	background: linear-gradient(to right, $mygray 50%, $mybeige 50%);
  	background-size: 200% 100%;
 	background-position: right bottom;
