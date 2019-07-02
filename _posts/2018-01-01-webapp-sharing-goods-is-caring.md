@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: "WebApp Sharing Goods is Caring"
+author: Joana Miranda
 featured: true
-image: assets/images/Joana-Miranda-Portfolio-Project-Sharing@2x.png
+image: /assets/images/Joana-Miranda-Portfolio-Project-Sharing@2x.png
 alt: "Fourth portfolio project image with the logo of the project"
 link: https://medium.com/@joanamiranda88/web-app-sharing-goods-is-caring-case-study-f6e50c8c9d03
 ---
