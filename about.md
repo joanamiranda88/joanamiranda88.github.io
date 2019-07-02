@@ -6,9 +6,4 @@ author: Joana Miranda
 
 # About the project
 
-*This project* eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper **project** cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
-
-## This is a h2
-No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.
-
-
+For 7 years working in the field of communication design, focusing on print and editorial design, I decided to increase my range of knowledge and enroll in a Digital Experience Design course, convinced that I would only learn to make visual interfaces. **I ended up falling in love with UX**, because I realized that I could create something with more meaning that would make a difference in people's lives. I learned to fall in love with the problem and let the users and the business dictate the result, trying to focus on the *UX Design* area.

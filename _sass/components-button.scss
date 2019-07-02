@@ -8,6 +8,7 @@
 	border: 3px solid $mygray;
 	font-weight: bold;
 	@include uppercase;
+	text-align: center;
 	background: linear-gradient(to right, $mygray 50%, $mybeige 50%);
  	background-size: 200% 100%;
 	background-position: right bottom;
@@ -22,6 +23,7 @@
 @media only screen and ( min-width: 768px ) {
 
   .button {
+		max-width: 300px;
     margin-left: $margin-desktop;
   }
 
