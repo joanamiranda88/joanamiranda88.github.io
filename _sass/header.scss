@@ -27,19 +27,18 @@ header {
 .menu ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
 	font-family: $title-type;
   @include uppercase;
   li {
-	  padding-right: 20px;
+    padding-right: 20px;
     list-style: none;
   }
 }
 
 .menu ul li a {
 	color: $mypink;
- 	font-size: 16px;
+ 	font-size: 18px;
  	text-decoration: none;
   &:hover {
   	color: $mygray;
@@ -58,8 +57,7 @@ header {
     flex: 1;
 }
 
-	.menu ul li {
-  	font-size: 20px;
-    text-align: right;
+	.menu ul li a {
+  	font-size: 24px;
   }
 }
