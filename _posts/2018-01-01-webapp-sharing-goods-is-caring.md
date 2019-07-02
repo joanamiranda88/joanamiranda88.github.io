@@ -3,9 +3,19 @@ layout: post
 title: "WebApp Sharing Goods is Caring"
 author: Joana Miranda
 featured: true
+link: https://medium.com/@joanamiranda88/web-app-sharing-goods-is-caring-case-study-f6e50c8c9d03
+
 image: /assets/images/Joana-Miranda-Portfolio-Project-Sharing@2x.png
 alt: "Fourth portfolio project image with the logo of the project"
-link: https://medium.com/@joanamiranda88/web-app-sharing-goods-is-caring-case-study-f6e50c8c9d03
+
+image-1: /assets/images/Joana-Miranda-Portfolio-Project-Fernando-Pessoa@2x.png
+alt-1: "First portfolio project image with and illustration"
+image-2: /assets/images/Joana-Miranda-Portfolio-Project-Fernando-Pessoa@2x.png
+alt-2: "First portfolio project image with and illustration"
+image-3: /assets/images/Joana-Miranda-Portfolio-Project-Fernando-Pessoa@2x.png
+alt-3: "First portfolio project image with and illustration"
+image-4: /assets/images/Joana-Miranda-Portfolio-Project-Fernando-Pessoa@2x.png
+alt-4: "First portfolio project image with and illustration"
 ---
 
 This project is a webapp of a service to help to reduce the mass production of objects that we only need a few times and promote a sharing economy.

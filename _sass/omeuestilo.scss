@@ -6,6 +6,7 @@
 @import 'home-whys-and-contacts';
 @import 'home-cards-and-projects';
 @import 'home-empathy';
+@import 'posts';
 
 @import 'variables-mixins';
 
@@ -42,8 +43,8 @@ body {
 nav a {
 	transition: background-color 1s linear;
   &:hover {
-	color: $mygray;
-	background-color: $myyelllow;
+    color: $mygray;
+	  background-color: $myyelllow;
   }
 }
 

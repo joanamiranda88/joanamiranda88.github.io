@@ -17,19 +17,19 @@ layout: default
       <section id="about">
         <h1>Introduction card - Others about me</h1>
         <figure class="card">
-          <img src="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Sofia@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Sofia@2x.png 2x" alt="Introcution card written by Sofia image">
+          <img src="/assets/images/Joana-Miranda-Portfolio-Introdution-Card-Sofia@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Sofia@2x.png 2x" alt="Introcution card written by Sofia image">
           <figcaption>"Hardworking, rigorous and loyal." <strong>Sofia Paiva Raposo (art director)</strong></figcaption>
         </figure>
         <figure class="card">
-          <img src="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Teresa@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Teresa@2x.png 2x" alt="Introcution card written by Teresa image">
+          <img src="/assets/images/Joana-Miranda-Portfolio-Introdution-Card-Teresa@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Teresa@2x.png 2x" alt="Introcution card written by Teresa image">
           <figcaption>"Meticulous, hardworking, rigorous, companion, creative, persistent, discreet… It's very easy to praise!" <strong>Teresa Roque de Pinho (colleague)</strong></figcaption>
         </figure>
         <figure class="card">
-          <img src="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Ines@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Ines@2x.png 2x" alt="Introcution card written by Ines image">
+          <img src="/assets/images/Joana-Miranda-Portfolio-Introdution-Card-Ines@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Ines@2x.png 2x" alt="Introcution card written by Ines image">
           <figcaption>"Joana is extremely organized, responsible and meticulous. She promotes good atmosphere at work and has a lot of creativity." <strong>Inês Fonseca (colleague)</strong></figcaption>
         </figure>
         <figure class="card">
-          <img src="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Claudia@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Claudia@2x.png 2x" alt="Introcution card written by Claudia image">
+          <img src="/assets/images/Joana-Miranda-Portfolio-Introdution-Card-Claudia@2x.png" srcset="assets/images/Joana-Miranda-Portfolio-Introdution-Card-Claudia@2x.png 2x" alt="Introcution card written by Claudia image">
           <figcaption>"Very competent and prefectionist." <strong>Cláudia Rocha (colleague)</strong></figcaption>
         </figure>
       </section>
@@ -85,8 +85,7 @@ layout: default
           <li class="one-project">
             <img src="{{ post.image }}" alt="{{ post.alt }}">
             <h3>{{ post.title }}</h3>
-            <p>{{ post.content }}</p>
-            <a href="{{ post.link }}" target="_blank" class="button">View complete project</a>
+            <a href="{{ post.url }}" class="button">View complete project</a>
           </li>
         {% endfor %}
 

@@ -1,0 +1,34 @@
+.post {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.post .post-infos {
+  font-weight: bold;
+}
+
+@media only screen and ( min-width: 768px ) {
+
+  .post {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .post h1 {
+    grid-column: 1 / 4;
+    grid-row: 1;
+  }
+
+  .post .post-infos {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .post p {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .post-images  {
+    grid-column: 1 / 4;
+  }
+}
