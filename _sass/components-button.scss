@@ -24,6 +24,13 @@
 
   .button {
 		max-width: 300px;
+  }
+
+}
+
+@media only screen and ( min-width: 1024px ) {
+
+  .button {
     margin-left: $margin-desktop;
   }
 

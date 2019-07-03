@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<section class="post">
+<section class="posts">
     <h1>{{ page.title }}</h1>
-    <ul class="post-infos">
+    <ul class="posts-infos">
       <li><span class="author">{{ page.author | escape }}</span></li>
       <li><time class="date" datetime="{{ page.date | date_to_xmlschema }}">
         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
@@ -11,13 +11,11 @@ layout: default
       </time></li>
     </ul>
     <p>{{ content }}</p>
-    <ul class="post-images">
-      <li>
-        <img src="{{ page.image-1 }}" alt="{{ page.alt-1 }}" class="post-images1">
-        <img src="{{ page.image-2 }}" alt="{{ page.alt-2 }}">
-        <img src="{{ page.image-3 }}" alt="{{ page.alt-3 }}">
-        <img src="{{ page.image-4 }}" alt="{{ page.alt-4 }}">
-      </li>
+    <ul class="posts-images">
+      <li class="image1"><img src="{{ page.image-1 }}" alt="{{ page.alt-1 }}" class="post-images1"></li>
+      <li class="image2"><img src="{{ page.image-2 }}" alt="{{ page.alt-2 }}"></li>
+      <li class="image3"><img src="{{ page.image-3 }}" alt="{{ page.alt-3 }}"></li>
+      <li class="image4"><img src="{{ page.image-4 }}" alt="{{ page.alt-4 }}"></li>
     </ul>
     <a href="{{ page.link }}" target="_blank" class="button">View case study</a>
 </section>

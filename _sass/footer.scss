@@ -70,6 +70,12 @@ footer {
 		display: flex;
 		margin-top: 0;
 		text-align: center;
+		li:nth-child(-n+3) {
+			margin-right: 30px;
+		}
+		img {
+			display: block;
+		}
 	}
 
 	.top {
