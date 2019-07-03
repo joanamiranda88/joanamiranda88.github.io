@@ -1,17 +1,17 @@
 .form {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   border: none;
   background: $myyelllow;
 }
 
-input, select, textarea {
+input {
   width: 100%;
   padding: 12px;
   border: 2px solid $mygray;
   margin-top: 6px;
   margin-bottom: 16px;
+  background: $mybeige;
 }
 
 .form .button {

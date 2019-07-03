@@ -6,10 +6,9 @@
 	margin: 0 auto;
 	background-color: $mypink;
 	background-size: cover;
-}
-
-#whys .text-block {
+	.text-block {
 	padding: 10px 0 60px;
+	}
 }
 
 #contacts i {
@@ -55,10 +54,9 @@
 
 	#whys {
 		height: 100vh;
-	}
-
-	#whys .text-block {
-		padding-top: 130px;
-		text-align: center;
+		.text-block {
+			padding-top: 130px;
+			text-align: center;
+		}
 	}
 }

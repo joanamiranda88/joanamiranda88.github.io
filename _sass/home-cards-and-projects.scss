@@ -20,6 +20,10 @@
 
 @media only screen and ( min-width: 768px ) {
 
+	#about h1 {
+		margin-top: 60px;
+	}
+
 	.one-project, .card {
 		display: inline-flex;
 		flex-direction: column;
@@ -36,10 +40,6 @@
 
 	.card figcaption {
 		line-height: 1.4;
-	}
-
-	#about h1 {
-		margin-top: 60px;
 	}
 }
 
