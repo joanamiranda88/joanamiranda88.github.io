@@ -1,4 +1,4 @@
-.posts .post-infos {
+.posts .posts-infos {
   font-weight: bold;
 }
 
@@ -6,7 +6,7 @@
 
   .posts {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-columns: repeat(3, [col] 1fr ) ;
     grid-template-rows: repeat(2, [row] auto );
   }
@@ -26,17 +26,19 @@
     grid-row: 2;
   }
 
-  .posts-images ul {
+  .posts-images {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: col 1 / 4;
     grid-row: 3;
   }
 
-  .image1 {
+  .posts-images li:first-child {
     grid-column: 1 / 4;
     grid-row: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .image2 {
