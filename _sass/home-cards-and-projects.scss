@@ -20,27 +20,32 @@
 
 @media only screen and ( min-width: 768px ) {
 
-		.card, .one-project {
-			display: inline-flex;
-			flex-direction: column;
-			width: 47%;
-			&:nth-child(odd) {
-				margin-right: 20px;
-			}
-		}
-
-		.card figcaption {
-			line-height: 1.4;
-		}
-
-		#about h1 {
-			margin-top: 60px;
-		}
- 	}
-
-	@media only screen and ( min-width: 1024px ) {
-
-		.card figcaption {
-			margin-left: $margin-desktop;
-		}
+	.one-project, .card {
+		display: inline-flex;
+		flex-direction: column;
+		width: 48%;
 	}
+
+	.one-project:nth-child(odd) {
+		margin-right: 20px;
+	}
+
+	.card:nth-child(even){
+		margin-right: 20px;
+	}
+
+	.card figcaption {
+		line-height: 1.4;
+	}
+
+	#about h1 {
+		margin-top: 60px;
+	}
+}
+
+@media only screen and ( min-width: 1024px ) {
+
+	.card figcaption {
+		margin-left: $margin-desktop;
+	}
+}

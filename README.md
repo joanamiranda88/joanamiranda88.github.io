@@ -1,4 +1,3 @@
-# Jekyll DXD 2019
+# Lista de que tecnologias utilizadas
 
-Ficheiros de trabalho para a aula de Jekyll.
-Baseado no tema [minima](https://github.com/jekyll/minima).
+F

@@ -1,12 +1,13 @@
 @import 'header';
 @import 'footer';
 
-@import 'components-button';
-
 @import 'home-whys-and-contacts';
 @import 'home-cards-and-projects';
 @import 'home-empathy';
 @import 'posts';
+@import 'contact';
+
+@import 'components-button';
 
 @import 'variables-mixins';
 
@@ -60,6 +61,7 @@ h2 {
 
 h3 {
   @include font-source-sans(18px, $mygray, 1.4);
+  margin-bottom: 20px;
 }
 
 @include headings-margin {
@@ -84,6 +86,7 @@ p, #education li, #contacts li {
 img {
 	width: 100%;
   height: auto;
+  margin-top: 20px;
   @include aspect-ratio(4, 3);
 }
 
@@ -108,20 +111,25 @@ ul, ol {
 
 	h3 {
 		font-size: 20px;
+    margin-bottom: 0;
 	}
+
+  img {
+    margin-top: 0;
+  }
 }
 
 @media only screen and ( min-width: 1024px ) {
 
-    body * {
-      margin-left: $margin-desktop;
-    }
+  body * {
+    margin-left: $margin-desktop;
+  }
 
-    #empathy h1, #education h1  {
-      margin-left: $margin-desktop;
-    }
+  #empathy h1, #education h1  {
+    margin-left: $margin-desktop;
+  }
 
-    p, #education li, #contacts li {
-      margin-left: $margin-desktop;
-    }
+  p, #education li, #contacts li {
+    margin-left: $margin-desktop;
+  }
 }

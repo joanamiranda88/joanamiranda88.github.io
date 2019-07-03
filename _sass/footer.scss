@@ -6,16 +6,16 @@ footer {
 	padding: 30px 30px 30px 20px;
 	margin-top: 50px;
 	background-color: $mygray;
-  text-decoration: none;
+  	text-decoration: none;
 	li > a {
 		color: $mypink;
 	}
 }
 
 .nav-footer {
-  font-family: $title-type;
+	font-family: $title-type;
 	@include uppercase;
-  line-height: 1.8;
+	line-height: 1.8;
 }
 
 .contacts-footer {
@@ -30,18 +30,18 @@ footer {
 .top {
 	align-self: flex-end;
 	width: 50px;
-  height: 50px;
+	height: 50px;
 	margin-top: 30px;
 	background: $mypink;
 	color: $mygray;
-  font-size: 22px;
-  text-decoration: none;
-  text-align: center;
-  line-height: 50px;
+	font-size: 22px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
 	animation: bounce 2s ease-in-out 3s infinite;
-  &:hover {
-    background: $myyelllow;
-  }
+	&:hover {
+		background: $myyelllow;
+  	}
 }
 
 @keyframes bounce {

@@ -9,13 +9,13 @@ image: /assets/images/Joana-Miranda-Portfolio-Project-Sharing@2x.png
 alt: "Fourth portfolio project image with the logo of the project"
 
 image-1: /assets/images/Joana-Miranda-Portfolio-Project-Sharing-01@2x.png
-alt-1: "Project image with "
+alt-1: "Website homepage"
 image-2: /assets/images/Joana-Miranda-Portfolio-Project-Sharing-02@2x.png
-alt-2: "Project image with "
+alt-2: "Website homepage"
 image-3: /assets/images/Joana-Miranda-Portfolio-Project-Sharing-03@2x.png
-alt-3: "Project image with "
+alt-3: "Website category page with filters box"
 image-4: /assets/images/Joana-Miranda-Portfolio-Project-Sharing-04@2x.png
-alt-4: "Project image with "
+alt-4: "Website category page with filters selected"
 ---
 
 The challenge was the creation of a service that could help reduce the mass production of objects we just need on time, so that each of us can make a difference by reducing our ecological footprint. The main goal was promote a sharing economy. The Web App Sharing Goods is Caring **allows users to "borrow" objects they only use on time.** For example: lawnmowers, drills, canoes, cameras, tents...
